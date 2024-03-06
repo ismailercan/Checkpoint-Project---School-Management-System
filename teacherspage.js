@@ -29,8 +29,8 @@ const renderTeacherCard = () => {
   <div class="d-flex justify-content-around">
   <div class="card d-flex justify-content-center" style="width: 18rem;">
       <div class="d-flex flex-row-reverse">
-          <img class="p-2" src="./images/trash.png" alt="Bootstrap" width="30" height="30">
-          <img class="p-2" src="./images/edit.png" alt="Bootstrap" width="30" height="30">
+          <img class="p-2" id="removebttn" src="./images/trash.png" alt="Bootstrap" width="30" height="30">
+          <img class="p-2" id="editbttn" src="./images/edit.png" alt="Bootstrap" width="30" height="30">
       </div>
       <div class="card-body">
           <h5 class="card-title">${teacher.name} ${teacher.surname}</h5>
